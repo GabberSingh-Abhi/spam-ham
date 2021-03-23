@@ -14,3 +14,4 @@ text_model.fit(x_train,y_train)
 select=st.text_input('Enter yoyr message')
 op=text_model.predict([select])
 st.title(op[0])
+ 
